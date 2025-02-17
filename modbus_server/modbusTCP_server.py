@@ -5,11 +5,12 @@
 File name: modbusTCP_server.py
 Description: This program implements a minimal code to create a
              modbus TCP server.
-URL:
+URL to Download:
+    https://github.com/LeandroTeodoroRJ/ModbusTCP-IP
 Stable: Yes
 Version: 2.0.0
 Current: Yes
-Maintainer: leandroteodoro.enggenharia@hotmail.com
+Maintainer: leandroteodoro.engenharia@hotmail.com
 Depends:
     pyModbusTCP==0.3.0
 Architecture: X86
