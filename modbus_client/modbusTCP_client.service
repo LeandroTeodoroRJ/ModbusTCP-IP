@@ -1,0 +1,13 @@
+[Unit]
+Description=Create a service to ModbusTCP
+
+[Service]
+Type=simple
+User=root
+ExecStart=/home/vbox/Dev/modbus_vm/bin/python3 -u ./modbusTCP_service.py  
+Restart=always
+RestartSec=10
+WorkingDirectory=/home/vbox/Dev/modbus_client/
+
+[Install]
+WantedBy=multi-user.target
