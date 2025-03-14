@@ -1,0 +1,13 @@
+[Unit]
+Description=Service to store ModbusTCP in MySQL
+
+[Service]
+Type=simple
+User=root
+ExecStart=/home/ubuntu/Dev/modbus_tcp/bin/python3 -u ./modbusTCP_mysql_service.py  
+Restart=always
+RestartSec=10
+WorkingDirectory=/home/ubuntu/Dev/modbus_data_store/
+
+[Install]
+WantedBy=multi-user.target

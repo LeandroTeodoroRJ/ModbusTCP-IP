@@ -1,0 +1,2 @@
+mysqlclient==2.2.7
+pyModbusTCP==0.3.0
